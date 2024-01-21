@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Add_Label"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="Add Label" />
+        <item
+            android:id="@+id/nav_Add_Photo"
+            android:icon="@android:drawable/ic_menu_camera"
+            android:title="Add Photo" />
+        <item
+            android:id="@+id/nav_Gallery"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_About"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@android:drawable/ic_menu_my_calendar"
+            android:title="About" />
+        <item
+            android:id="@+id/nav_Logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@android:drawable/ic_menu_set_as"
+            android:onClick="cikisClick"
+            android:title="Logout" />
+    </group>
+</menu>
